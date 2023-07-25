@@ -1,0 +1,198 @@
+/* =========Reset CSS======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header styling */
+
+.header {
+  display: flex;
+  height: 5rem;
+  background: #2d3c50;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+.header .logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: color 0.5s ease;
+}
+
+.header .logo:hover {
+  color: #3882f6;
+  transition: color 0.5s ease;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.header nav ul li a {
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 2s ease;
+}
+
+.header nav a:hover {
+  color: #2d3c50;
+  background-color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main styling */
+
+.hero {
+  display: flex;
+  color: #fff;
+  height: 400px;
+  background-color: #2d3c50;
+  padding: 5rem 10rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.hero-image {
+  display: flex;
+  color: #2d3c50;
+  background-color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.hero-text .title {
+  font-size: 3rem;
+}
+
+.button a {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #3882f6;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 2s ease;
+}
+
+.button a:hover {
+  color: #2d3c50;
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  padding: 5rem 10rem;
+}
+
+.features .title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.grid .box {
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  border: 4px solid #3882f6;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.quote {
+  background: #e5e7eb;
+  padding: 8rem 20rem;
+}
+
+.quote div:first-child {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote div:last-child {
+  font-size: 1rem;
+  text-align: right;
+}
+
+.signup {
+  padding: 5rem 10rem;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background: #3882f6;
+  color: #fff;
+  padding: 2rem 2rem;
+  border-radius: 10px;
+}
+.signup .button a {
+  border: 2px solid #fff;
+}
+
+/* Footer styling */
+footer {
+  background: #1f2937;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2rem;
+  text-align: center;
+}
